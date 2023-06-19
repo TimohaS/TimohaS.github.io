@@ -1,0 +1,115 @@
+.resume {
+    padding: 10px;
+    margin: 0 auto;
+    width: 1064px;
+}
+.resume .wrapper {
+    background-color: #f9f9f9;
+    color: black;
+    border-radius: 5px;
+    padding: 1px 0;
+    margin-bottom: 50px;
+}
+
+.data-item {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 20px;    
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;    
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 60px);
+    margin: 0 50px 0 0;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    width: 100%;
+    background: #EBF4FC;
+    border: 2px solid #CAE1F4;
+    border-radius: 5px;
+    width: 100%;
+    padding: 16px;
+    color: #85B6DD;
+    transition: box-shadow .1s ease-in-out, -webkit-box-shadow .1s ease-in-out, all .2s;
+    font-size: 16px;
+}
+
+.checkbox input {
+    width: 20px;    
+    margin-left: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.photo {
+    margin-right: 20px;
+}
+
+.other-info {
+    flex-direction: column;
+}
+
+.auto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.h-item {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input[type=number] {
+    min-width: 100px;
+}
+
+.auto p {
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+}
+
+textarea {
+    background: #EBF4FC;
+    border: 2px solid #CAE1F4;
+    border-radius: 5px;
+    width: 950px;
+    padding: 16px;
+    color: #85B6DD;
+    transition: 0.2s;
+    font-size: 16px;
+    font: 16px "Roboto", sans-serif;
+    resize: none;
+}
+
+.resume-btn{
+    margin-left: 800px;
+    width: 80px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}

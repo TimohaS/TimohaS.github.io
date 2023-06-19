@@ -1,0 +1,17 @@
+.footer {
+    background-color: #173B5D;
+    margin-top: 20px;
+}
+
+.footer-ul {
+    display: flex;
+    padding: 30px 0;
+}
+
+.footer-ul li:first-child {
+    margin-right: auto;
+}
+
+.footer-ul li:not(li:first-child) {
+    margin-left: 10px;
+}

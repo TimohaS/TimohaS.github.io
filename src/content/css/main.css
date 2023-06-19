@@ -1,0 +1,146 @@
+.p-free {
+    margin: 30px 0;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.slider-comp {    
+    display: flex;
+}
+.slider-numbers {    
+    font-size: 48px;
+    -webkit-text-stroke: 2px #7390AA;       
+    margin-right: 120px;
+}
+
+.slider-numbers li{
+    color:#173B5D;
+    display: flex;    
+    width: 120px;
+    height: 120px;
+    border: 1px solid #173B5D; 
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #173B5D;
+}
+
+.slider-numbers li:nth-child(2) {
+    margin: 60px 0;
+    position: relative;
+}
+
+.slider-numbers li:nth-child(2)::before {
+    position: absolute;    
+    left: 50px;
+    top: -70px;
+    content: '';
+    border: 1px solid #173B5D;   
+    width: 20px;
+    height: 70px;
+    background-color: #173B5D;
+}
+
+.slider-numbers li:nth-child(2)::after {
+    position: absolute;    
+    left: 50px;
+    top: 120px;
+    content: '';
+    border: 1px solid white;   
+    width: 20px;
+    height: 70px;
+    background-color: white;
+}
+
+.slider-numbers li:not(li:first-child) {
+    background-color: white;
+    border-color: white;
+    color: white;
+}
+
+.slider-wrap {
+    width: 900px;
+    border: 1px solid #173B5D;
+    background-color: #173B5D;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+}
+
+.slider-wrap div:first-child {
+    width: 400px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.slider-wrap div:first-child p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.slider-wrap div:first-child div:first-child{
+    margin-bottom: 110px;
+}
+
+
+.butonns {
+    display: flex;
+    flex-direction: column;
+}
+
+.butonns .knopka {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.butonns .knopka:last-child {
+    transform: rotate(180deg);
+}
+
+.slider-wrap .stroke-btn {
+    margin-left: 300px;
+}
+
+.primer {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.project {
+    width: 890px;
+    font-size: 20px;
+    margin: 10px auto;    
+}
+
+.project p:first-child {
+    text-align: center;
+    font-size: 28px;
+}
+
+.project li {
+    line-height: 30px;
+}
+
+.project ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-btn {
+    margin-left: 550px;
+}
+
+.project-btn button:first-child {
+    margin-right: 20px  ;
+}
